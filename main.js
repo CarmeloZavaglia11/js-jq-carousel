@@ -11,7 +11,7 @@ $(document).ready(function(){
     arrowNext.click(function(){
         nextImage();
     });
-    
+
     arrowPrev.click(function(){
         prevImage();
     });
@@ -34,9 +34,10 @@ $(document).ready(function(){
         }  else if($('.nav i:last-child').hasClass('active')){
             $('.images img:last-child').addClass('active');
         }
-    })
-
     
+    }) 
+
+
 
     /***FUNZIONI***/
 
